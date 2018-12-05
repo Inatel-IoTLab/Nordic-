@@ -93,8 +93,9 @@ void saadc_sampling_event_enable(void)
 
     APP_ERROR_CHECK(err_code);
 }
-
-
+```
+Na função ```saadc_callback``` foi adicionado a variável soma para realizar o acumulo das leituras do sensor.
+```
 void saadc_callback(nrf_drv_saadc_evt_t const * p_event)
 {
 	float soma = 0;
@@ -118,6 +119,7 @@ void saadc_callback(nrf_drv_saadc_evt_t const * p_event)
 	        soma = 0;
 	}
 }
+
 ```
 Na função ```saadc_init``` foram adicionados novos parâmetros de configuração para funcionamento adequeado do conversor AD/DC.
 
