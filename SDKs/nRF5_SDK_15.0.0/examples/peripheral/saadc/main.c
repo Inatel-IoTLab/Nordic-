@@ -9,6 +9,7 @@
 
 
 
+
 int main(void)
 {
     NRF_LOG_INIT(NULL); // @suppress("Statement has no effect")
