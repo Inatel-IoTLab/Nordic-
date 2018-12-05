@@ -7,16 +7,16 @@ Serial Adaptador FTDI<br/>
     .<br/>
     ├── ...<br/>
     ├── hex<br/>
-    │&nbsp;&nbsp;├── license.txt<br/>
-    │   ├── saadc_pca10056.hex<br/>
-    │   └── unit<br/>
+    │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── license.txt<br/>
+    │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── saadc_pca10056.hex<br/>
+    │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── unit<br/>
     ├── pca10056<br/>
-    |   ├── blank<br/>
-    |   |   ├── armgcc<br/>
-    |   |   ├── Makefile<br/>
-    |   |   └── saadc_gcc_nrf52.ld<br/>  
-    |   ├── config<br/>
-    |   |   └── sdk_config.h<br/>
+    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── blank<br/>
+    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── armgcc<br/>
+    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Makefile<br/>
+    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── saadc_gcc_nrf52.ld<br/>  
+    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── config<br/>
+    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── sdk_config.h<br/>
     ├── mainLogger.c<br/>
     └── ...<br/>
 
