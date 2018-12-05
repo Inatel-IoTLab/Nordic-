@@ -119,7 +119,7 @@ void saadc_callback(nrf_drv_saadc_evt_t const * p_event)
 	}
 }
 ```
-Na função saadc_init foram adicionados novos parâmetros de configuração para funcionamento adequeado do conversor AD/DC.
+Na função ```saadc_init``` foram adicionados novos parâmetros de configuração para funcionamento adequeado do conversor AD/DC.
 
 ```
 void saadc_init(void)
@@ -189,3 +189,6 @@ int main(void)
 
 /** @} */
 ```
+
+####Observação:
+ - O Makefile não foi alterado
