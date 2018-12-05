@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/CMakeFiles/nRF5_SDK"
+		},
+		{
+			"file" : "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/CMakeFiles/nRF5_SDK.rule"
+		},
+		{
+			"file" : "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/CMakeFiles/nRF5_SDK-complete.rule"
+		},
+		{
+			"file" : "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/nRF5_SDK_15.0.0_a53641a/src/nRF5_SDK-stamp/nRF5_SDK-install.rule"
+		},
+		{
+			"file" : "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/nRF5_SDK_15.0.0_a53641a/src/nRF5_SDK-stamp/nRF5_SDK-mkdir.rule"
+		},
+		{
+			"file" : "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/nRF5_SDK_15.0.0_a53641a/src/nRF5_SDK-stamp/nRF5_SDK-download.rule"
+		},
+		{
+			"file" : "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/nRF5_SDK_15.0.0_a53641a/src/nRF5_SDK-stamp/nRF5_SDK-update.rule"
+		},
+		{
+			"file" : "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/nRF5_SDK_15.0.0_a53641a/src/nRF5_SDK-stamp/nRF5_SDK-patch.rule"
+		},
+		{
+			"file" : "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/nRF5_SDK_15.0.0_a53641a/src/nRF5_SDK-stamp/nRF5_SDK-configure.rule"
+		},
+		{
+			"file" : "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/nRF5_SDK_15.0.0_a53641a/src/nRF5_SDK-stamp/nRF5_SDK-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nRF5_SDK"
+		],
+		"name" : "nRF5_SDK"
+	}
+}

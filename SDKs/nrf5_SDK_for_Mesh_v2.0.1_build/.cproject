@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject>
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="org.eclipse.linuxtools.cdt.autotools.core.toolChain.353447332">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="org.eclipse.linuxtools.cdt.autotools.core.toolChain.353447332" moduleId="org.eclipse.cdt.core.settings" name="Build (GNU)">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration buildProperties="" id="org.eclipse.linuxtools.cdt.autotools.core.toolChain.353447332" name="Build (GNU)" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="org.eclipse.linuxtools.cdt.autotools.core.toolChain.353447332.1056874995" name="/" resourcePath="">
+						<toolChain id="org.eclipse.linuxtools.cdt.autotools.core.toolChain.1097370458" name="GNU Autotools Toolchain" superClass="org.eclipse.linuxtools.cdt.autotools.core.toolChain">
+							<targetPlatform id="org.eclipse.linuxtools.cdt.autotools.core.toolchain.targetPlatform.998593087" isAbstract="false" name="GNU Autotools Target Platform" superClass="org.eclipse.linuxtools.cdt.autotools.core.toolchain.targetPlatform"/>
+							<builder id="org.eclipse.linuxtools.cdt.autotools.core.toolchain.builder.97431885" managedBuildOn="false" name="Autotools Makefile Generator.Build (GNU)" superClass="org.eclipse.linuxtools.cdt.autotools.core.toolchain.builder"/>
+							<tool id="org.eclipse.linuxtools.cdt.autotools.core.gnu.toolchain.tool.configure.103835908" name="configure" superClass="org.eclipse.linuxtools.cdt.autotools.core.gnu.toolchain.tool.configure">
+								<option id="org.eclipse.linuxtools.cdt.autotools.core.option.configure.name.1590374503" superClass="org.eclipse.linuxtools.cdt.autotools.core.option.configure.name" value="org.eclipse.linuxtools.cdt.autotools.core.toolChain.353447332" valueType="string"/>
+							</tool>
+							<tool id="org.eclipse.linuxtools.cdt.autotools.core.toolchain.tool.autogen.1003243477" name="autogen.sh" superClass="org.eclipse.linuxtools.cdt.autotools.core.toolchain.tool.autogen"/>
+							<tool id="org.eclipse.linuxtools.cdt.autotools.core.toolchain.tool.gcc.1380800357" name="GCC C Compiler" superClass="org.eclipse.linuxtools.cdt.autotools.core.toolchain.tool.gcc">
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.912865282" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="org.eclipse.linuxtools.cdt.autotools.core.toolchain.tool.gpp.1061387100" name="GCC C++ Compiler" superClass="org.eclipse.linuxtools.cdt.autotools.core.toolchain.tool.gpp">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1711294409" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="nrf5_SDK_for_Mesh_v2.0.1_build.null.1884167363" name="nrf5_SDK_for_Mesh_v2.0.1_build"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile"/>
+		<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+			<buildOutputProvider>
+				<openAction enabled="true" filePath=""/>
+				<parser enabled="true"/>
+			</buildOutputProvider>
+			<scannerInfoProvider id="specsFile">
+				<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="/usr/bin/arm-none-eabi-gcc" useDefault="true"/>
+				<parser enabled="true"/>
+			</scannerInfoProvider>
+		</profile>
+		<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+			<buildOutputProvider>
+				<openAction enabled="true" filePath=""/>
+				<parser enabled="true"/>
+			</buildOutputProvider>
+			<scannerInfoProvider id="makefileGenerator">
+				<runAction arguments="-f ${project_name}_scd.mk" command="/usr/bin/make" useDefault="true"/>
+				<parser enabled="true"/>
+			</scannerInfoProvider>
+		</profile>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.pathentry">
+		<pathentry kind="src" path="[Subprojects]"/>
+		<pathentry kind="src" path="[Source directory]"/>
+		<pathentry excluding="[Source directory]/|**/CMakeFiles/" kind="out" path=""/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/external/rtt/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/external/micro-ecc" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/mesh/core/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/examples/enocean_switch/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/examples/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/examples" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/examples/common/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nRF5_SDK_15.0.0/components/drivers_nrf/delay" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/models/simple_on_off/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/models/config/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/models/health/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/mesh/stack/api" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/mesh/core/api" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/mesh/access/api" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/mesh/access/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/mesh/dfu/api" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/mesh/dfu/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/mesh/prov/api" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/mesh/prov/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/mesh/bearer/api" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/mesh/bearer/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/mesh/gatt/api" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/mesh/gatt/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nRF5_SDK_15.0.0/components/softdevice/s140/headers" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nRF5_SDK_15.0.0/components/softdevice/s140/headers/nrf52" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nRF5_SDK_15.0.0/modules/nrfx" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nRF5_SDK_15.0.0/modules/nrfx/mdk" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nRF5_SDK_15.0.0/modules/nrfx/hal" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nRF5_SDK_15.0.0/modules/nrfx/templates/nRF52840" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nRF5_SDK_15.0.0/components/toolchain/cmsis/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nRF5_SDK_15.0.0/components/toolchain/gcc" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nRF5_SDK_15.0.0/components/toolchain/cmsis/dsp/GCC" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nRF5_SDK_15.0.0/components/boards" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nRF5_SDK_15.0.0/integration/nrfx" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nRF5_SDK_15.0.0/components/libraries/log" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nRF5_SDK_15.0.0/components/libraries/util" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nRF5_SDK_15.0.0/components/libraries/delay" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/examples/beaconing/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/examples/dfu/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/mesh/serial/api" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/mesh/serial/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/examples/light_switch/client/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/examples/light_switch/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/examples/light_switch/server/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/examples/light_switch/provisioner/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/examples/light_switch/proxy_server/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nRF5_SDK_15.0.0/components/ble/common" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nRF5_SDK_15.0.0/components/softdevice/common" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nRF5_SDK_15.0.0/components/libraries/experimental_section_vars" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nRF5_SDK_15.0.0/components/libraries/experimental_log" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nRF5_SDK_15.0.0/components/libraries/experimental_log/src" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nRF5_SDK_15.0.0/components/libraries/strerror" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/examples/light_switch/proxy_client/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/examples/pb_remote/client/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/models/pb_remote/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/examples/pb_remote/server/include" kind="inc" path="" system="true"/>
+		<pathentry include="/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_src/examples/serial/include" kind="inc" path="" system="true"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets>
+			<target name=": all" path="mesh/gatt" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="mesh/gatt" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="examples/pb_remote" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="examples/pb_remote" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="mesh/dfu" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="mesh/dfu" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="examples/light_switch" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="examples/light_switch" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="models" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="models" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] pb_remote_server_nrf52840_xxAA_s140_6.0.0" path="examples/pb_remote/server" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>pb_remote_server_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] pb_remote_server_nrf52840_xxAA_s140_6.0.0/fast" path="examples/pb_remote/server" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>pb_remote_server_nrf52840_xxAA_s140_6.0.0/fast</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="examples/pb_remote/server" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="examples/pb_remote/server" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="mesh/stack" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="mesh/stack" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] enocean_switch_nrf52840_xxAA_s140_6.0.0" path="examples/enocean_switch" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>enocean_switch_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] enocean_switch_nrf52840_xxAA_s140_6.0.0/fast" path="examples/enocean_switch" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>enocean_switch_nrf52840_xxAA_s140_6.0.0/fast</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="examples/enocean_switch" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="examples/enocean_switch" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Build" path="[Targets]/[exe] light_switch_provisioner_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-C "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build" -j2</buildArguments>
+				<buildTarget>light_switch_provisioner_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Clean" path="[Targets]/[exe] light_switch_provisioner_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/local/bin/cmake</buildCommand>
+				<buildArguments>-E chdir "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/examples/light_switch/provisioner" "/usr/local/bin/cmake" -P "CMakeFiles/light_switch_provisioner_nrf52840_xxAA_s140_6.0.0.dir/cmake_clean.cmake"</buildArguments>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[lib] rtt_nrf52840_xxAA" path="external/rtt" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>rtt_nrf52840_xxAA</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[lib] rtt_nrf52840_xxAA/fast" path="external/rtt" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>rtt_nrf52840_xxAA/fast</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="external/rtt" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="external/rtt" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="mesh/bootloader" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="mesh/bootloader" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="models/pb_remote" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="models/pb_remote" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="examples/common" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="examples/common" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="mesh/bearer" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="mesh/bearer" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Build" path="[Targets]/[exe] serial_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-C "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build" -j2</buildArguments>
+				<buildTarget>serial_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Clean" path="[Targets]/[exe] serial_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/local/bin/cmake</buildCommand>
+				<buildArguments>-E chdir "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/examples/serial" "/usr/local/bin/cmake" -P "CMakeFiles/serial_nrf52840_xxAA_s140_6.0.0.dir/cmake_clean.cmake"</buildArguments>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Build" path="[Targets]/[exe] enocean_switch_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-C "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build" -j2</buildArguments>
+				<buildTarget>enocean_switch_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Clean" path="[Targets]/[exe] enocean_switch_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/local/bin/cmake</buildCommand>
+				<buildArguments>-E chdir "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/examples/enocean_switch" "/usr/local/bin/cmake" -P "CMakeFiles/enocean_switch_nrf52840_xxAA_s140_6.0.0.dir/cmake_clean.cmake"</buildArguments>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Build" path="[Targets]/[exe] dfu_no_serial_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-C "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build" -j2</buildArguments>
+				<buildTarget>dfu_no_serial_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Clean" path="[Targets]/[exe] dfu_no_serial_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/local/bin/cmake</buildCommand>
+				<buildArguments>-E chdir "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/examples/dfu" "/usr/local/bin/cmake" -P "CMakeFiles/dfu_no_serial_nrf52840_xxAA_s140_6.0.0.dir/cmake_clean.cmake"</buildArguments>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[lib] uECC_nrf52840_xxAA" path="external/micro-ecc" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>uECC_nrf52840_xxAA</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[lib] uECC_nrf52840_xxAA/fast" path="external/micro-ecc" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>uECC_nrf52840_xxAA/fast</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="external/micro-ecc" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="external/micro-ecc" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] light_switch_provisioner_nrf52840_xxAA_s140_6.0.0" path="examples/light_switch/provisioner" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>light_switch_provisioner_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] light_switch_provisioner_nrf52840_xxAA_s140_6.0.0/fast" path="examples/light_switch/provisioner" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>light_switch_provisioner_nrf52840_xxAA_s140_6.0.0/fast</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="examples/light_switch/provisioner" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="examples/light_switch/provisioner" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="examples" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="examples" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="mesh/core" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="mesh/core" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="mesh/prov" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="mesh/prov" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="mesh/serial" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="mesh/serial" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="models/simple_on_off" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="models/simple_on_off" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] beaconing_nrf52840_xxAA_s140_6.0.0" path="examples/beaconing" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>beaconing_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] beaconing_nrf52840_xxAA_s140_6.0.0/fast" path="examples/beaconing" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>beaconing_nrf52840_xxAA_s140_6.0.0/fast</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="examples/beaconing" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="examples/beaconing" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="models/health" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="models/health" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Build" path="[Targets]/[lib] uECC_nrf52840_xxAA" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-C "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build" -j2</buildArguments>
+				<buildTarget>uECC_nrf52840_xxAA</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Clean" path="[Targets]/[lib] uECC_nrf52840_xxAA" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/local/bin/cmake</buildCommand>
+				<buildArguments>-E chdir "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/external/micro-ecc" "/usr/local/bin/cmake" -P "CMakeFiles/uECC_nrf52840_xxAA.dir/cmake_clean.cmake"</buildArguments>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="flash_inatel_env" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>flash_inatel_env</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Build" path="[Targets]/[lib] rtt_nrf52840_xxAA" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-C "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build" -j2</buildArguments>
+				<buildTarget>rtt_nrf52840_xxAA</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Clean" path="[Targets]/[lib] rtt_nrf52840_xxAA" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/local/bin/cmake</buildCommand>
+				<buildArguments>-E chdir "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/external/rtt" "/usr/local/bin/cmake" -P "CMakeFiles/rtt_nrf52840_xxAA.dir/cmake_clean.cmake"</buildArguments>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Build" path="[Targets]/[exe] pb_remote_client_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-C "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build" -j2</buildArguments>
+				<buildTarget>pb_remote_client_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Clean" path="[Targets]/[exe] pb_remote_client_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/local/bin/cmake</buildCommand>
+				<buildArguments>-E chdir "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/examples/pb_remote/client" "/usr/local/bin/cmake" -P "CMakeFiles/pb_remote_client_nrf52840_xxAA_s140_6.0.0.dir/cmake_clean.cmake"</buildArguments>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Build" path="[Targets]/[exe] pb_remote_server_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-C "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build" -j2</buildArguments>
+				<buildTarget>pb_remote_server_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Clean" path="[Targets]/[exe] pb_remote_server_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/local/bin/cmake</buildCommand>
+				<buildArguments>-E chdir "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/examples/pb_remote/server" "/usr/local/bin/cmake" -P "CMakeFiles/pb_remote_server_nrf52840_xxAA_s140_6.0.0.dir/cmake_clean.cmake"</buildArguments>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="models/config" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="models/config" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] light_switch_client_nrf52840_xxAA_s140_6.0.0" path="examples/light_switch/client" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>light_switch_client_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] light_switch_client_nrf52840_xxAA_s140_6.0.0/fast" path="examples/light_switch/client" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>light_switch_client_nrf52840_xxAA_s140_6.0.0/fast</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="examples/light_switch/client" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="examples/light_switch/client" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] serial_nrf52840_xxAA_s140_6.0.0" path="examples/serial" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>serial_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] serial_nrf52840_xxAA_s140_6.0.0/fast" path="examples/serial" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>serial_nrf52840_xxAA_s140_6.0.0/fast</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="examples/serial" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="examples/serial" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] light_switch_proxy_server_nrf52840_xxAA_s140_6.0.0" path="examples/light_switch/proxy_server" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>light_switch_proxy_server_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] light_switch_proxy_server_nrf52840_xxAA_s140_6.0.0/fast" path="examples/light_switch/proxy_server" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>light_switch_proxy_server_nrf52840_xxAA_s140_6.0.0/fast</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="examples/light_switch/proxy_server" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="examples/light_switch/proxy_server" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Build" path="[Targets]/[exe] light_switch_client_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-C "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build" -j2</buildArguments>
+				<buildTarget>light_switch_client_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Clean" path="[Targets]/[exe] light_switch_client_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/local/bin/cmake</buildCommand>
+				<buildArguments>-E chdir "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/examples/light_switch/client" "/usr/local/bin/cmake" -P "CMakeFiles/light_switch_client_nrf52840_xxAA_s140_6.0.0.dir/cmake_clean.cmake"</buildArguments>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="mesh" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="mesh" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Build" path="[Targets]/[exe] dfu_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-C "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build" -j2</buildArguments>
+				<buildTarget>dfu_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Clean" path="[Targets]/[exe] dfu_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/local/bin/cmake</buildCommand>
+				<buildArguments>-E chdir "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/examples/dfu" "/usr/local/bin/cmake" -P "CMakeFiles/dfu_nrf52840_xxAA_s140_6.0.0.dir/cmake_clean.cmake"</buildArguments>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] dfu_no_serial_nrf52840_xxAA_s140_6.0.0" path="examples/dfu" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>dfu_no_serial_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] dfu_no_serial_nrf52840_xxAA_s140_6.0.0/fast" path="examples/dfu" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>dfu_no_serial_nrf52840_xxAA_s140_6.0.0/fast</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] dfu_nrf52840_xxAA_s140_6.0.0" path="examples/dfu" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>dfu_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] dfu_nrf52840_xxAA_s140_6.0.0/fast" path="examples/dfu" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>dfu_nrf52840_xxAA_s140_6.0.0/fast</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="examples/dfu" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="examples/dfu" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Build" path="[Targets]/[exe] light_switch_server_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-C "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build" -j2</buildArguments>
+				<buildTarget>light_switch_server_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Clean" path="[Targets]/[exe] light_switch_server_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/local/bin/cmake</buildCommand>
+				<buildArguments>-E chdir "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/examples/light_switch/server" "/usr/local/bin/cmake" -P "CMakeFiles/light_switch_server_nrf52840_xxAA_s140_6.0.0.dir/cmake_clean.cmake"</buildArguments>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] pb_remote_client_nrf52840_xxAA_s140_6.0.0" path="examples/pb_remote/client" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>pb_remote_client_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] pb_remote_client_nrf52840_xxAA_s140_6.0.0/fast" path="examples/pb_remote/client" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>pb_remote_client_nrf52840_xxAA_s140_6.0.0/fast</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="examples/pb_remote/client" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="examples/pb_remote/client" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="mesh/access" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="mesh/access" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Build" path="[Targets]/[exe] beaconing_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-C "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build" -j2</buildArguments>
+				<buildTarget>beaconing_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Clean" path="[Targets]/[exe] beaconing_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/local/bin/cmake</buildCommand>
+				<buildArguments>-E chdir "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/examples/beaconing" "/usr/local/bin/cmake" -P "CMakeFiles/beaconing_nrf52840_xxAA_s140_6.0.0.dir/cmake_clean.cmake"</buildArguments>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] light_switch_server_nrf52840_xxAA_s140_6.0.0" path="examples/light_switch/server" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>light_switch_server_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] light_switch_server_nrf52840_xxAA_s140_6.0.0/fast" path="examples/light_switch/server" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>light_switch_server_nrf52840_xxAA_s140_6.0.0/fast</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="examples/light_switch/server" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="examples/light_switch/server" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] light_switch_proxy_client_nrf52840_xxAA_s140_6.0.0" path="examples/light_switch/proxy_client" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>light_switch_proxy_client_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="[exe] light_switch_proxy_client_nrf52840_xxAA_s140_6.0.0/fast" path="examples/light_switch/proxy_client" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>light_switch_proxy_client_nrf52840_xxAA_s140_6.0.0/fast</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="examples/light_switch/proxy_client" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="examples/light_switch/proxy_client" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": all" path="external" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name=": clean" path="external" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-j2</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Build" path="[Targets]/[exe] light_switch_proxy_server_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-C "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build" -j2</buildArguments>
+				<buildTarget>light_switch_proxy_server_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Clean" path="[Targets]/[exe] light_switch_proxy_server_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/local/bin/cmake</buildCommand>
+				<buildArguments>-E chdir "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/examples/light_switch/proxy_server" "/usr/local/bin/cmake" -P "CMakeFiles/light_switch_proxy_server_nrf52840_xxAA_s140_6.0.0.dir/cmake_clean.cmake"</buildArguments>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Build" path="[Targets]/[exe] light_switch_proxy_client_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/bin/make</buildCommand>
+				<buildArguments>-C "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build" -j2</buildArguments>
+				<buildTarget>light_switch_proxy_client_nrf52840_xxAA_s140_6.0.0</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Clean" path="[Targets]/[exe] light_switch_proxy_client_nrf52840_xxAA_s140_6.0.0" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/usr/local/bin/cmake</buildCommand>
+				<buildArguments>-E chdir "/home/mazzer/work/nordic/sdk/nrf5_SDK_for_Mesh_v2.0.1_build/examples/light_switch/proxy_client" "/usr/local/bin/cmake" -P "CMakeFiles/light_switch_proxy_client_nrf52840_xxAA_s140_6.0.0.dir/cmake_clean.cmake"</buildArguments>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+		</buildTargets>
+	</storageModule>
+</cproject>

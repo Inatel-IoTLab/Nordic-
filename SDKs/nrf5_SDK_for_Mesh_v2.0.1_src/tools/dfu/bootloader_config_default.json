@@ -1,0 +1,10 @@
+{
+    "bootloader_config": {
+        "bootloader_id": 1,
+        "bootloader_version": 1,
+        "company_id": 89,
+        "application_id": 1,
+        "application_version": 1,
+	"public_key": "eb306b7aa181240bfeb2bfa2a341730f998408d68ea854398fb9e76f81c1faa69617a9ad689eb739d1ff4e762ec3e2aedf648ed9b2b66e9afd06561027db6729325b3b71a9a1ca8ecc2176a8d4b0314c266931967090779362924622e49490a7"
+    }
+}
