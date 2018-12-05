@@ -7,7 +7,7 @@ Serial Adaptador FTDI<br/>
     .<br/>
     ├── ...<br/>
     ├── hex<br/>
-    │   ├── license.txt<br/>
+    │&nbsp&nbsp├── license.txt<br/>
     │   ├── saadc_pca10056.hex<br/>
     │   └── unit<br/>
     ├── pca10056<br/>
