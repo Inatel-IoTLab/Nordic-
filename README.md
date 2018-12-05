@@ -9,8 +9,9 @@ primárias seria realizado o estudo da parte de Bluetooth Mesh integrado aos per
 
 #### Desenvolvimento
 <p>Todos os testes foram realizados com a seguinte versões:
-- Periféricos: nrf52_sdk_15.0.0.
-- Bluetooth Mesh: nrf52_sdk_for_mesh_v2.0.1_src.</p>
+1. Periféricos: nrf52_sdk_15.0.0.
+2. Bluetooth Mesh: nrf52_sdk_for_mesh_v2.0.1_src.
+</p>
 
 <p>O ambiente de desenvolvimento foi o linux Ubuntu 16.04 LTS e a IDE escolhida foi o eclipse. Para realizar as configurações iniciais do desenvolvimento foi seguida a sesssão “Getting Started” presentes na documentação [1]. O upload dos códigos são realizados via nrfjprog, através do seguinte comando:</p>
 
