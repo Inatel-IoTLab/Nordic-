@@ -18,7 +18,7 @@ int main(void)
     while (1)
     {
         NRF_LOG_FLUSH();
-        NRF_LOG_INFO("Aplicação.");
+        NRF_LOG_INFO("Aplicação MESH.");
     }
 }
 
