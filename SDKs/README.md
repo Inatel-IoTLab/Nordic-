@@ -41,7 +41,10 @@ OUTPUT_DIRECTORY := _build
 
 SDK_ROOT := ../../../../../..
 PROJ_DIR := ../../..
+```
+Foi adicionado a variável ```MESH_ROOT``` para facilitar a busca de dependências na pasta do sdk MESH.
 
+```
 #Path SDK for MESH
 MESH_ROOT := ../../../../../../../nrf5_SDK_for_Mesh_v2.0.1_src
 
@@ -79,6 +82,9 @@ SRC_FILES += \
   $(SDK_ROOT)/modules/nrfx/drivers/src/nrfx_uarte.c \
   $(PROJ_DIR)/main.c \
   $(SDK_ROOT)/modules/nrfx/mdk/system_nrf52840.c \
+```
+Foram adicionadas todos os arquivos referidos na documentação da nordic para o funcionamento da rede mesh
+```
   $(MESH_ROOT)/mesh/core/src/aes.c \
   $(MESH_ROOT)/mesh/core/src/aes_cmac.c \
   $(MESH_ROOT)/mesh/core/src/beacon.c \
@@ -200,6 +206,9 @@ INC_FOLDERS += \
   $(SDK_ROOT)/external/fprintf \
   $(SDK_ROOT)/components/libraries/atomic \
   $(SDK_ROOT)/components/softdevice/common/ \
+```
+Foram adicionados todos os Paths para que sejam compilados os arquivos .c adicionados na seção acima.
+```
   $(MESH_ROOT)/mesh/core/api \
   $(MESH_ROOT)/mesh/core/include \
   $(MESH_ROOT)/mesh/bearer/api \
@@ -238,11 +247,16 @@ CFLAGS += -DBSP_DEFINES_ONLY
 CFLAGS += -DCONFIG_GPIO_AS_PINRESET
 CFLAGS += -DFLOAT_ABI_HARD
 CFLAGS += -DNRF52840_XXAA
+```
+Para não ocorrer erros de “softdevice not found” na compilação dos arquivos foi adicionado as seguintes linhas na Flag: CFLAGS
+```
 CFLAGS += -DNRF52_SERIES
 CFLAGS += -DCONFIG_APP_IN_CORE
 CFLAGS += -DNRF_MESH_LOG_ENABLE=NRF_LOG_USES_RTT
 CFLAGS += -DNRF_SD_BLE_API_VERSION=6
 CFLAGS += -DS140
+```
+```
 CFLAGS += -mcpu=cortex-m4
 CFLAGS += -mthumb -mabi=aapcs
 CFLAGS += -Wall -Werror
@@ -260,9 +274,14 @@ ASMFLAGS += -mcpu=cortex-m4
 ASMFLAGS += -mthumb -mabi=aapcs
 ASMFLAGS += -mfloat-abi=hard -mfpu=fpv4-sp-d16
 ASMFLAGS += -DBOARD_PCA10056
+```
+A mesma coisa da seção acima foi feita na Flag: ASMFLAGS
+```
 ASMFLAGS += -DNRF52
 ASMFLAGS += -DNRF52_SERIES
 ASMFLAGS += -DS140
+```
+```
 ASMFLAGS += -DNRF_SD_BLE_API_VERSION=6
 ASMFLAGS += -DCONFIG_APP_IN_CORE
 ASMFLAGS += -DBSP_DEFINES_ONLY
