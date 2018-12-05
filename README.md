@@ -24,7 +24,7 @@ primárias seria realizado o estudo da parte de Bluetooth Mesh integrado aos per
 <p>Para início foi compilado o sdk como mostrado na sessão “Building the mesh stack and
 examples”*** [3]. Para fins de entendimento e funcionamento foi realizado o upload dos códigos exemplos [4] para as placas da nordic como recomendado na documentação.<p>
 <p>A Nordic oferece dois SDKs ambos têm que estar na mesma pasta:</p>
-• nrf5_SDK_for_Mesh_v2.2.0: SDK para uso do Bluetooth mesh</br>
+• nrf5_SDK_for_Mesh_v2.0.1: SDK para uso do Bluetooth mesh</br>
 • nRF5_SDK_15.0.0: SDK para utilização de periféricos e uso tradicional do Bluetooth</br></br>
 
 *** Quando for compilar com o cmake usar o seguinte comando ***</br>
@@ -36,4 +36,22 @@ A junção do código mesh com o código de periférico foi realizada em cima do
 ```nrf52_sdk_15.0.0/examples/peripheral/saadc```
 
 <p>Para algumas facilidades foi adicionado ao makefile uma linha de MESH_ROOT, para apontar o caminho do sdk mesh do arquivo.</p>
+
+##### Observação
+<p>As próximas etapas ainda precisam ser feitas para completar a implementação, até o presente momento desse tutorial ainda a erros durante a compilação.</p>
+
+#### Conclusão
+<p>Com os estudos obtiveram bons resultados e um avanço significativo, porém ainda precisa ser terminado a implementação das demais funções para o funcionamento correto dos dois SDKs. Apesar do kit de desenvolvimento da nordic nrf52840 ter uma vasta documentação ainda há um grande esforço para a implementação de novas funções que demandam bastante esforço e experiência na área de programação de microcontroladores. Segundo o site da nordic, infocenter.nordicsemi.com, a documentação do kit parou de ser atualizada na data de 30 de novembro de 2018.</p>
+
+#### Referências
+[1] - Getting started. http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.nrf52%2Fdita%2Fnrf52%2Fdevelopment%2Fnrf52840_pdk%2Fgetting_started.html
+
+[2] - How to install picocom on Ubuntu 16.04 (Xenial Xerus).
+https://www.howtoinstall.co/en/ubuntu/xenial/picocom
+
+[3] - Building the mesh stack and examples. http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.meshsdk.v2.00%2Fmd_doc_getting_started_how_to_nordicSDK.html
+
+[4] - Light switch demo. http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.meshsdk.v2.0.0%2Fmd_doc_getting_started_how_to_nordicSDK.html
+
+[5] - Coexistence with nRF5 SDK BLE functionality. http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.meshsdk.v2.2.0%2Fmd_doc_getting_started_how_to_nordicSDK.html
 
