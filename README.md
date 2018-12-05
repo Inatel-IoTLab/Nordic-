@@ -27,7 +27,7 @@ examples”*** [3]. Para fins de entendimento e funcionamento foi realizado o up
 • nrf5_SDK_for_Mesh_v2.2.0: SDK para uso do Bluetooth mesh</br>
 • nRF5_SDK_15.0.0: SDK para utilização de periféricos e uso tradicional do Bluetooth</br></br>
 
-*** Quando for compilar com o cmake usar o seguinte comando ***
+*** Quando for compilar com o cmake usar o seguinte comando ***</br>
 ```cmake -DTOOLCHAIN=gccarmemb -DPLATFORM=nrf52840_xxAA -G"Eclipse CDT4 - Unix Makefiles" ../nrf5_SDK_for_Mesh_v2.0.1_src/```
 
 <p>Após a verificação do funcionamento e comportamento das placas, o próximo passo seria a implementação do sdk mesh associado ao sdk de periféricos. Para tal função de associação foi seguido o tópico “Coexistence with nRF5 SDK BLE functionality” [5].
